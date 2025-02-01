@@ -93,7 +93,7 @@ For each website (**canarabank.in**, **github.com**, **netflix.com**):
 4. Check if the **Connection is Persistent**:
    - Look for the `Connection: keep-alive` header.
 
-#### **Step 4: Capture Performance Metrics and Cookies**
+#### **Step 3: Capture Performance Metrics and Cookies**
 1. In Developer Tools, go to the **Performance Tab**.
 2. Click **Start Profiling and Reload Page**.
 3. Check **Cookies** in the **Application Tab**.
