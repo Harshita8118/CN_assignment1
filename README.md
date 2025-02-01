@@ -81,14 +81,12 @@ This script processes the PCAP file to answer the specific questions outlined in
 ### **Part 3: Live Packet Capture and Website Analysis**
 #### **Step 1: Capture Network Packets using Wireshark**
 1. Open **Wireshark**.
-2. Select your active network interface (Wi-Fi/Ethernet).
+2. Select your active network interface (Wi-Fi).
 3. Click **Start Capture** and perform regular web activities.
-4. Save the captured traffic as `Q3.pcap`.
+4. Save the captured traffic as `Q3.pcap
+5. Under the protocol tab different types of protocols can be seen.
 
-#### **Step 2: Identify Application Layer Protocols**
-Use the Wireshark **Statistics** tab to identify at least 5 lesser-known application layer protocols.
-
-#### **Step 3: Analyze Website Requests**
+#### **Step 2: Analyze Website Requests**
 For each website (**canarabank.in**, **github.com**, **netflix.com**):
 1. Open **Developer Tools** (`Ctrl + Shift + I` on Chrome/Edge, `F12` on Firefox).
 2. Go to **Network Tab**, reload the page (`F5`).
@@ -96,15 +94,12 @@ For each website (**canarabank.in**, **github.com**, **netflix.com**):
    - Method, URL, and HTTP Version.
 4. Check if the **Connection is Persistent**:
    - Look for the `Connection: keep-alive` header.
-5. Extract 3 header field names and values from request/response.
-6. Identify any **HTTP error codes** encountered and describe them.
 
 #### **Step 4: Capture Performance Metrics and Cookies**
 1. In Developer Tools, go to the **Performance Tab**.
 2. Click **Start Profiling and Reload Page**.
-3. Capture a screenshot and note performance metrics (Load Time, DOM Content Load, etc.).
-4. Check **Cookies** in the **Application Tab**.
-   - Report cookie names, values, and associated flags from request and response headers.
+3. Check **Cookies** in the **Application Tab**.
+   - Cookies tab have all cookies listed.
    
 
 
