@@ -29,8 +29,6 @@ For Linux/macOS, install **Tcpreplay** using:
 ```sh
 sudo apt-get install tcpreplay  # Debian/Ubuntu
 brew install tcpreplay  # macOS
-```
-For Wireshark installation, download it from [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
 
 ---
 
