@@ -108,8 +108,4 @@ For each website (**canarabank.in**, **github.com**, **netflix.com**):
    
 
 
----
-
-## **5. Contact and Support**
-For any queries, reach out to your instructor or discuss with your teammate. Happy coding! 🚀
 
